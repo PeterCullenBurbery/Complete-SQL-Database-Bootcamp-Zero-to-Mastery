@@ -8,7 +8,8 @@
 
 -- Question 1: What is the average salary for the company?
 -- Table: Salaries
-
+select avg(salary) as "average salary for the company" from "public"."salaries"
+63810.744836143706
 
 -- Question 2: What year was the youngest person born in the company?
 -- Table: employees
