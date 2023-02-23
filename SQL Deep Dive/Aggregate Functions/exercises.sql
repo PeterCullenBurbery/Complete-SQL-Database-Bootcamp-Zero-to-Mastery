@@ -55,5 +55,7 @@ select count(*) from "public"."countrylanguage" where isofficial=true
 
 -- Question 3: What is the average population for cities in the netherlands?
 -- Table: city
+--select avg(population) from "public"."city" where countrycode='NLD'
 
 
+--185001.75
