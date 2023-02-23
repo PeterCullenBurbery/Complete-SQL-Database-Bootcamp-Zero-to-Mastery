@@ -8,13 +8,13 @@
 
 -- Question 1: What is the average salary for the company?
 -- Table: Salaries
-select avg(salary) as "average salary for the company" from "public"."salaries"
+--select avg(salary) as "average salary for the company" from "public"."salaries"
 -- $63810.744836143706
 
 -- Question 2: What year was the youngest person born in the company?
 -- Table: employees
 select min(birth_date) from "public"."employees";
-1952-02-01
+--1952-02-01
 -- 1952
 
 -- BEFORE YOU START
@@ -37,6 +37,16 @@ select min(birth_date) from "public"."employees";
 
 -- Question 1: How many official languages are there?
 -- Table: countrylanguage
+
+/* select * from "public"."countrylanguage";
+
+select * from "public"."countrylanguage" where isofficial=true;
+
+select count(*) from "public"."countrylanguage" where isofficial=true
+
+238
+
+*/
 
 -- Question 2: What is the average life expectancy in the world?
 -- Table: country
