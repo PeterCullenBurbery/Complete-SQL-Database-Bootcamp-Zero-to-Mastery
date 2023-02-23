@@ -50,6 +50,8 @@ select count(*) from "public"."countrylanguage" where isofficial=true
 
 -- Question 2: What is the average life expectancy in the world?
 -- Table: country
+--select avg(lifeexpectancy) from "public"."country"
+--66.486
 
 -- Question 3: What is the average population for cities in the netherlands?
 -- Table: city
