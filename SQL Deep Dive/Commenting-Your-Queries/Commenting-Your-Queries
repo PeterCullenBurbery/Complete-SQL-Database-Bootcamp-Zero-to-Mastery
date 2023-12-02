@@ -1,0 +1,18 @@
+/*
+select the employee with the name Mayumi Schueller. The first name is Mayumi and the last name is Schueller. There are multiple employees with the first name Mayumi.
+*/
+select * from "public"."employees" where first_name='Mayumi' and last_name = 'Schueller'
+
+
+--select statement to filter Mayumi Schueller
+select * from "public"."employees"
+
+-- filter on first name and last name to limit the amount of data returned
+
+-- and focus the filtering on a single person
+
+/* 
+filter on first name and last name to limit the amount of data returned and focus the filtering on a single person 
+/*
+
+where first_name='Mayumi' and last_name = 'Schueller'; -- filter here on Mayumi Schueller
